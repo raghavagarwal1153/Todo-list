@@ -53,6 +53,8 @@ const add=()=>{
 <button className="button" onClick={add}>+</button>
 {fullname.map((arr,index)=>{
 return(
+// Demo is componet
+// Demo path is src/Demo.jsx
 <Demo item={arr}
   delete={deleteitems}
   key={index}
