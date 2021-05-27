@@ -1,0 +1,33 @@
+.app{
+  display:block;
+  margin: auto;
+  
+  
+}
+.main{
+  background-color: rgb(245, 86, 139);
+  box-sizing: border-box;
+  width:20vw;
+  height: 65vh;
+  display:block;
+  margin: auto;
+  position: relative;
+  top:100px;
+  overflow-x: scroll;
+}
+.button{
+  width:57px;
+  border: solid black;
+  background-color: rgb(245, 86, 139);
+  margin-left: 23px;
+  border-radius: 50%;
+}
+.button:hover{
+  background-color: rgb(13, 236, 50);
+}
+.Demo{
+  display:flex;
+  flex-direction: row;
+  height:23px;
+
+}
