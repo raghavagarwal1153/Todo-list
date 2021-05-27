@@ -6,25 +6,16 @@ function App(){
 const[name,setName]=useState("")
 const[fullname,setFullname]=useState([])
 
-  
- 
-
-
-  const callingme=(event)=>{
+    const callingme=(event)=>{
     const val=event.target.value
-   setName(val)
-
-  }
+   setName(val)}
 
 const add=()=>{
   setFullname((itemval)=>{
     return [...fullname,name]
   })
     
-    setName("")
-  
-    
-  }
+    setName("") }
   const deleteitems=(id)=>{
   setFullname((itemvalue)=>{
     return(
@@ -33,12 +24,7 @@ const add=()=>{
     }))
   })
   }
- 
-    
-  
-
-
-  return(
+   return(
 <>
 
 <input type="text" name="todolist" placeholder="Add your Text" onChange={callingme} value={name}>
@@ -53,7 +39,6 @@ return(
   id={index}
 
 />
-
   
 )
 })}
